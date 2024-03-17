@@ -3,10 +3,10 @@
 - [x] ADO.NET CRUD
 - https://www.javatpoint.com/ado-net-tutorial
 
-- Dapper 
+- [x] Dapper 
 - https://www.learndapper.com/
 
-- Entity Framework Core (ef core) - (code first, database first)
+- [x] Entity Framework Core (ef core) - (code first, database first)
 - database first (most commonly used)
 
 - SweetAlert
