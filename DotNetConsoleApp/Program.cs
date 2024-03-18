@@ -2,6 +2,7 @@
 using DotNetConsoleApp.AdoDotNetExamples;
 using DotNetConsoleApp.DapperExamples;
 using DotNetConsoleApp.EFCoreExamples;
+using DotNetConsoleApp.HttpClientExamples;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -35,8 +36,8 @@ Console.WriteLine("Hello, World!");
 //dapperExample.Delete(17);
 //dapperExample.Delete(70);
 
-EFCoreExample eFCoreExample = new EFCoreExample();
-eFCoreExample.Read();
+//EFCoreExample eFCoreExample = new EFCoreExample();
+//eFCoreExample.Read();
 
 //eFCoreExample.Edit(3);
 //eFCoreExample.Edit(40);
@@ -48,5 +49,11 @@ eFCoreExample.Read();
 
 //eFCoreExample.Delete(18);
 //eFCoreExample.Delete(70);
+
+Console.WriteLine("Waiting for api...");
+Console.ReadKey();
+
+HttpClientExample httpClientExample = new HttpClientExample();
+await httpClientExample.Run();
 
 Console.ReadKey();

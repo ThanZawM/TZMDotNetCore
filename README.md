@@ -11,6 +11,8 @@
 
 - [x] ASP.NET Core Web Api (Blogs CRUD)
 
+- [x] Postman CRUD, async await, HttpClient, Newtonsoft.json 
+
 - SweetAlert
 - https://sweetalert2.github.io/
 
