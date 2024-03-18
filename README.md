@@ -9,6 +9,8 @@
 - [x] Entity Framework Core (ef core) - (code first, database first)
 - database first (most commonly used)
 
+- [x] ASP.NET Core Web Api (Blogs CRUD)
+
 - SweetAlert
 - https://sweetalert2.github.io/
 
